@@ -119,3 +119,53 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
+
+/* --------------------------------------------------------- */
+
+
+
+.consult-info {
+    justify-content: center;
+    align-items: center;
+}
+
+.consult-blok {
+    width: 45%;
+}
+
+.consult-text-info {
+    flex-direction: column;
+}
+
+.consult-text-info h1 {
+    max-width: 35vw;
+    margin-bottom: 1.64vw;
+
+    font-weight: 500;
+    font-size: 4.5rem;
+    /* line-height: 85px; */
+    color: #3D3D3F;
+}
+
+.consult-text-info span {
+    max-width: 35vw;
+    margin-bottom: 1.56vw;
+
+    font-weight: 400;
+    font-size: 1.25rem;
+    /* line-height: 24px; */
+    color: #3D3D3F;
+}
+
+.consult-text-info button {
+    /* padding: 12px 28px; */
+    padding: 0.47vw 1.09vw;
+}
+
+
+
+.consult-image img {
+    max-width: 56.48vw;
+}
