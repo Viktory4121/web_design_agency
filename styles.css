@@ -173,6 +173,8 @@ body {
 
 /* ------------------------------------------------------------ */
 
+
+
 .provide-info {
     margin-top: 4.69vw;
     color: #3D3D3F;
@@ -180,10 +182,13 @@ body {
 
 .provide-info h2 {
     margin-bottom: 2.15vw;
+}
 
+h2 {
     text-align: center;
     font-weight: 700;
     font-size: 2.5rem;
+    color: #3D3D3F;
 }
 
 .provide-num-info {
@@ -229,4 +234,10 @@ body {
 
 /* ------------------------------------------------------- */
 
+
+
+.offer-info h2 {
+    margin-top: 4.69vw;
+    margin-bottom: 1.76vw;
+}
 
