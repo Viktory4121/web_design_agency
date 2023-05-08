@@ -67,9 +67,12 @@ body {
     /* font-size: 14px; */
     font-size: 0.875rem;
     /* line-height: 18px; */
-    color: #3D3D3F;
 
     display: inline; /* размещение списка по-горизонтали */
+}
+
+.menu-item a {
+    color: #3D3D3F;
 }
 
 .menu-item + .menu-item {
@@ -90,6 +93,10 @@ body {
     cursor: pointer;
 }
 
+.main-button:hover {
+    background: #ff8b65;
+}
+
 .main-button:active {
     background: #FFFFFF;
     color: #F35F2F;
@@ -102,12 +109,9 @@ body {
 .menu-button button {
     /* padding: 12px 24px; */
     padding: 0.47vw 0.94vw;
+    transform: translate(200%, 0);
 }
 
-.menu-button {
-    padding-left: 19.53vw;
-    /* padding-left: 500px; */
-}
 
 .menu a {
     text-decoration: none; /* убирает подчёркивание у ссылок */
@@ -136,6 +140,7 @@ body {
 
 .consult-text-info {
     flex-direction: column;
+    padding-left: 5.08vw;
 }
 
 .consult-text-info h1 {
@@ -163,6 +168,10 @@ body {
     padding: 0.47vw 1.09vw;
     font-weight: 400;
     font-size: 1.25rem;
+}
+
+.consult-image {
+    padding-right: 5.08vw;
 }
 
 .consult-image img {
@@ -213,6 +222,8 @@ h2 {
     font-weight: 700;
     font-size: 2.25rem;
     margin-bottom: 0.51vw;
+
+    text-align: center;
 }
 
 .provide-item span {
@@ -220,6 +231,8 @@ h2 {
     font-size: 1.5rem;
     opacity: 0.7;
     margin-bottom: 2.11vw;
+
+    text-align: center;
 }
 
 .provide-item img {
@@ -244,22 +257,24 @@ h2 {
     flex-direction: column;
 
     background: #FFFFFF;
-
     box-shadow: 0px 4px 22px rgba(95, 95, 95, 0.05);
     border-radius: 0.90vw;
 }
 
 .offer-img-block {
-    width: 5.2vw;
-    height: 5.2vw;
+    transform: translate(0, -50%);
+    width: 5.5vw;
+    height: 5.5vw;
     background: #fff;
     box-shadow: 0px 4px 22px rgba(95, 95, 95, 0.05);
     border-radius: 50%;
     
     align-items: center;
     justify-content: center;
+}
 
-    margin-top: 1vw;
+.offer-img-block path {
+    fill: #3D3D3F;
 }
 
 .offer-item + .offer-item {
@@ -268,7 +283,8 @@ h2 {
 
 .offer-info h2 {
     margin-top: 4.69vw;
-    margin-bottom: 1.76vw;
+    /* margin-bottom: 1.76vw; */
+    margin-bottom: 5.28vw;
 }
 
 .offer-item p {
@@ -276,7 +292,8 @@ h2 {
     font-size: 1.5rem;
     color: #3D3D3F;
 
-    margin-top: 1.95vw;
+    /* margin-top: 1.95vw; */
+    text-align: center;
 }
 
 .offer-item span {
@@ -305,5 +322,11 @@ h2 {
     background: rgba(255, 122, 80, 0.83);
 }
 
+.offer-circle-block:hover path {
+    fill: #fff;
+}
 
+.offer-circle-block:active {
+    background: rgba(255, 86, 35, 0.83);
+}
 
