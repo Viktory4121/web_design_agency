@@ -330,3 +330,61 @@ h2 {
     background: rgba(255, 86, 35, 0.83);
 }
 
+
+
+/*  ----------------------------------------------------------------*/
+
+.projects-info {
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-info h2 {
+    margin-top: 4.69vw;
+    margin-bottom: 2.15vw;
+}
+
+.projects-block {
+    max-width: 80vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* для размещения большого количества блоков с информацией друг под другом */
+    /* justify-content: space-between; */
+}
+
+.project-item {
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+/* .project-item + .project-item {
+    margin-left: 1vw;
+    margin-top: 1vw;
+} */
+
+.project-item img {
+    max-width: 299px;
+}
+
+.project-item p {
+    padding-top: 0.74vw;
+}
+
+.project-button {
+    font-weight: 400;
+    font-size: 1.25;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    margin-top: 2.34vw;
+    justify-content: center;
+}
+
+.project-button button {
+    padding: 0.55vw 1.02vw;
+}
+
