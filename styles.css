@@ -345,7 +345,7 @@ h2 {
 }
 
 .projects-block {
-    max-width: 80vw;
+    /* max-width: 80vw; */
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; /* для размещения большого количества блоков с информацией друг под другом */
@@ -388,3 +388,33 @@ h2 {
     padding: 0.55vw 1.02vw;
 }
 
+
+
+
+/* -------------------------------------------------------------------- */
+
+
+
+.team-info h2 {
+    margin-top: 4.69vw;
+    margin-bottom: 1.95vw;
+}
+
+.team-item p {
+    font-weight: 500;
+    font-size: 1.125rem;
+    text-align: center;
+    color: #3D3D3F;
+}
+
+.team-item span {
+    font-weight: 400;
+    font-size: 0.875rem;
+    text-align: center;
+    color: #999999;
+}
+
+.team-social {
+    justify-content: center;
+    align-items: center;
+}
