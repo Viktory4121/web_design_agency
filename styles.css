@@ -395,9 +395,57 @@ h2 {
 
 
 
+.team-items {
+    justify-content: center;
+    align-items: center;
+}
+
 .team-info h2 {
     margin-top: 4.69vw;
     margin-bottom: 1.95vw;
+}
+
+.team-item {
+    background: linear-gradient(138.88deg, rgba(254, 254, 254, 0) -2.44%, #F9F9F9 -2.43%, rgba(254, 254, 254, 0.51) 98.26%);
+    border: 1px solid #EEEFF1;
+    filter: drop-shadow(0px 4px 120px rgba(0, 0, 0, 0.05));
+    border-radius: 10px;
+
+    /* width: 20%; */
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.team-item + .team-item {
+    margin-left: 1.41vw;
+}
+
+.team-image {
+    width: 15vw;
+    height: 17vw;
+    margin: 0.6vw;
+    /* background-size: cover; */
+    /* background-size: auto; */
+    /* background-position: top center ; */
+    border-radius: 10px;
+}
+
+#team-1 {
+    background: url('pic/doctor-DRJDAU5.png') no-repeat center 10%;
+}
+
+#team-2 {
+    background: url('pic/doctor-DRJDAU52.png') no-repeat center 15%;
+}
+
+#team-3 {
+    background: url('pic/doctor-DRJDAU53.png') no-repeat center 15%;
+}
+
+#team-4 {
+    background: url('pic/doctor-DRJDAU54.png') no-repeat center 15%;
 }
 
 .team-item p {
@@ -405,6 +453,8 @@ h2 {
     font-size: 1.125rem;
     text-align: center;
     color: #3D3D3F;
+
+    padding-bottom: 0.04vw;
 }
 
 .team-item span {
@@ -415,6 +465,9 @@ h2 {
 }
 
 .team-social {
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+
+    padding-top: 0.66vw;
 }
+
