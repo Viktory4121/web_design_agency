@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    /* width: auto; */
 }
 
 .font-rubik {
@@ -21,7 +20,6 @@ body {
 }
 
 .header{
-    /* max-height: 200px; */
     height: 7.81vw;
     width: 100%;
     align-items: center;
@@ -33,7 +31,6 @@ body {
 }
 
 .logo {
-    /* padding-left: 230px; */
     padding-left: 8.98vw;
     align-items: center;
 }
@@ -47,7 +44,6 @@ body {
 
 .logo span {
     font-weight: 500;
-    /* font-size: 26px; */
     font-size: 1.625rem;
     /* line-height: 31px; */
     text-transform: uppercase;
@@ -64,7 +60,6 @@ body {
 
 .menu-item {
     font-weight: 500;
-    /* font-size: 14px; */
     font-size: 0.875rem;
     /* line-height: 18px; */
 
@@ -76,7 +71,6 @@ body {
 }
 
 .menu-item + .menu-item {
-    /* margin-left: 60px; */
     margin-left: 2.34vw;
 }
 
@@ -86,11 +80,11 @@ body {
 
     background: linear-gradient(2.79deg, #F35F2F -13.68%, rgba(243, 95, 47, 0.75) 121.16%);
     opacity: 0.85;
-    /* border-radius: 5px; */
     border-radius: 0.20vw;
     border: none;
 
     cursor: pointer;
+    /* box-sizing: border-box; */
 }
 
 .main-button:hover {
@@ -104,6 +98,8 @@ body {
     border-width: thin;
     border-style: solid;
     border-color: #F35F2F;
+
+    /* box-sizing: border-box; */
 }
 
 .menu-button button {
@@ -522,6 +518,8 @@ h2 {
 
 /* ---------------------------------------------------------------- */
 
+
+
 .contact-inputs {
     /* width: 60%; */
     justify-content: center;
@@ -569,6 +567,7 @@ h2 {
 
 .contact-one-col input {
     width: 31.5vw;
+    height: 7.81vw;
 }
 
 .contact-info input:focus {
@@ -605,3 +604,60 @@ h2 {
 }
 
 
+
+/* ---------------------------------------------------------------- */
+
+
+
+.footer-info-item {
+    width: 23%;
+}
+
+.footer-info-item ul {
+    list-style: none; /* убирает маркеры списка */
+}
+
+.footer-info-item li {
+    font-weight: 400;
+    font-size: 0.875rem;
+    /* line-height: 14px; */
+}
+
+.footer-info-item p {
+    font-weight: 700;
+    font-size: 1rem;
+    /* line-height: 16px; */
+    color: #323232;
+}
+
+.footer-info-item a {
+    text-decoration: none; /* убирает подчёркивание у ссылок */
+    color: #646464;
+}
+
+.footer-info {
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------------------------------------------------------------- */
+
+.footer-back {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 14px;
+    color: #646464;
+}
+
+.footer-back ul {
+    list-style: none; /* убирает маркеры списка */
+}
+
+.footer-back li {
+    display: inline; /* размещение списка по-горизонтали */
+}
+
+.footer-back a {
+    text-decoration: none;
+    color: #646464;
+}
