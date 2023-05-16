@@ -36,8 +36,8 @@ body {
 }
 
 .logo img {
-    height: 1.80vw;
-    /* height: 47px; */
+    /* height: 1.80vw; */
+    height: 46px;
 
     margin-right: 0.39vw;
 }
@@ -128,6 +128,8 @@ body {
 .consult-info {
     justify-content: center;
     align-items: center;
+
+    /* flex-wrap: wrap; */
 }
 
 .consult-blok {
@@ -171,7 +173,8 @@ body {
 }
 
 .consult-image img {
-    max-width: 56.48vw;
+    /* max-width: 56.48vw; */
+    max-width: 626px;
 }
 
 
@@ -232,8 +235,8 @@ h2 {
 }
 
 .provide-item img {
-    /* width: 90px; */
-    width: 3.52vw;
+    width: 99px;
+    /* width: 3.87vw; */
     margin-bottom: 0.90vw;
     margin-top: 2.11vw;
 }
@@ -259,8 +262,10 @@ h2 {
 
 .offer-img-block {
     transform: translate(0, -50%);
-    width: 5.5vw;
-    height: 5.5vw;
+    /* width: 5.5vw; */
+    width: 90px;
+    /* height: 5.5vw; */
+    height: 90px;
     background: #fff;
     box-shadow: 0px 4px 22px rgba(95, 95, 95, 0.05);
     border-radius: 50%;
@@ -271,6 +276,10 @@ h2 {
 
 .offer-img-block path {
     fill: #3D3D3F;
+}
+
+.offer-img-block svg {
+    width: 55px;
 }
 
 .offer-item + .offer-item {
@@ -305,8 +314,10 @@ h2 {
 
 .offer-circle-block {
     background: #F1F1F5;
-    width: 3vw;
-    height: 3vw;
+    /* width: 3vw; */
+    width: 45px;
+    /* height: 3vw; */
+    height: 45px;
     border-radius: 1.5vw;
 
     align-items: center;
@@ -367,8 +378,10 @@ h2 {
 } */
 
 .project-image {
-    width: 15.63vw;
-    height: 11.72vw;
+    /* width: 15.63vw;
+    height: 11.72vw; */
+    width: 390px;
+    height: 290px;
     margin: 0.6vw;
     border-radius: 10px;
     background-size: cover;
@@ -456,8 +469,10 @@ h2 {
 }
 
 .team-image {
-    width: 15vw;
-    height: 17vw;
+    /* width: 15vw;
+    height: 17vw; */
+    width: 240px;
+    height: 250px;
     margin: 0.6vw;
     /* background-size: cover; */
     /* background-size: auto; */
