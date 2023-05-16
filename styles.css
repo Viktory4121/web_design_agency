@@ -668,7 +668,7 @@ h2 {
     color: #646464;
 }
 
-.footer-info-item a:hover{
+.footer-info-item a:hover, .footer-back a:hover {
     color: #1c1c1c;
 }
 
@@ -739,6 +739,10 @@ h2 {
 
 .footer-back li {
     display: inline; /* размещение списка по-горизонтали */
+}
+
+.footer-back-item + .footer-back-item {
+    margin-left: 2.15vw;
 }
 
 .footer-back a {
