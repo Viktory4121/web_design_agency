@@ -30,8 +30,12 @@ body {
     width: 33%;
 }
 
-.logo {
+header .logo {
     padding-left: 8.98vw;
+    
+}
+
+.logo {
     align-items: center;
 }
 
@@ -585,7 +589,7 @@ h2 {
     height: 7.81vw;
 }
 
-.contact-info input:focus {
+.input-forms:focus {
     color: #3D3D3F;
     border-color: #F35F2F;
     outline: 0;
@@ -593,7 +597,7 @@ h2 {
     opacity: 0.9;
 }
 
-.contact-info input:hover {
+.input-forms:hover {
     border-color: #F35F2F;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(255, 86, 35, 0.6);
@@ -622,7 +626,9 @@ h2 {
 
 /* ---------------------------------------------------------------- */
 
-
+.footer-info {
+    margin-bottom: 1.25vw;
+}
 
 .footer-info-item {
     width: 23%;
@@ -636,6 +642,12 @@ h2 {
     font-weight: 400;
     font-size: 0.875rem;
     /* line-height: 14px; */
+    
+    text-align: center;
+}
+
+.foot-cat + .foot-cat {
+    margin-top: 1vw;
 }
 
 .footer-info-item p {
@@ -643,6 +655,12 @@ h2 {
     font-size: 1rem;
     /* line-height: 16px; */
     color: #323232;
+
+    margin-bottom: 1vw;
+}
+
+.footer-category, .footer-about {
+    text-align: center;
 }
 
 .footer-info-item a {
@@ -650,11 +668,54 @@ h2 {
     color: #646464;
 }
 
+.footer-info-item a:hover{
+    color: #1c1c1c;
+}
+
 .footer-info {
     justify-content: center;
     align-items: center;
 }
 
+.footer-contact .logo {
+    margin-bottom: 0.51vw;
+}
+
+.footer-contact, .footer-subscribe {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer-contact-span + .footer-contact-span {
+    margin-top: 0.63vw;
+}
+
+.footer-subscribe span, .footer-subscribe input {
+    margin-bottom: 0.59vw;
+}
+
+.footer-subscribe button {
+    padding: 0.47vw 4.57vw;
+}
+
+.footer-subscribe span, .footer-contact-span {
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 180%; */
+    color: #646464;
+}
+
+.footer-subscribe input {
+    padding: 0.47vw 1vw 0.47vw 0.78vw;
+}
+
+.footer-contact-society {
+    margin-top: 0.63vw;
+}
+
+.footer-contact-society-item + .footer-contact-society-item {
+    margin-left: 0.63vw;
+}
 /* ---------------------------------------------------------------- */
 
 .footer-back {
@@ -662,6 +723,14 @@ h2 {
     font-size: 0.875rem;
     line-height: 14px;
     color: #646464;
+
+    padding-bottom: 1.76vw;
+    padding-top: 1.76vw;
+    border-top: 0.04vw solid rgba(150, 150, 150, 0.2);
+
+    justify-content: space-between;
+
+    margin: 0 7vw;
 }
 
 .footer-back ul {
