@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .font-rubik {
@@ -85,7 +86,10 @@ header .logo {
     background: linear-gradient(2.79deg, #F35F2F -13.68%, rgba(243, 95, 47, 0.75) 121.16%);
     opacity: 0.85;
     border-radius: 0.20vw;
-    border: none;
+    /* border: none; */
+    border-width: thin;
+    border-style: solid;
+    border-color: #F35F2F;
 
     cursor: pointer;
     /* box-sizing: border-box; */
