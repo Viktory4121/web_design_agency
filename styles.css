@@ -182,7 +182,8 @@ header .logo {
 
 .consult-image img {
     /* max-width: 56.48vw; */
-    max-width: 626px;
+    /* max-width: 626px; */
+    width: 100%;
 }
 
 
@@ -326,7 +327,7 @@ h2 {
     width: 45px;
     /* height: 3vw; */
     height: 45px;
-    border-radius: 1.5vw;
+    border-radius: 50%;
 
     align-items: center;
     justify-content: center;
@@ -544,15 +545,12 @@ h2 {
 
 
 .contact-inputs {
-    /* width: 60%; */
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
     margin-right: 14.18vw;
     margin-left: 14.18vw;
-
-    /* overflow:hidden; */
 }
 
 .contact-info h2 {
@@ -560,7 +558,7 @@ h2 {
     margin-bottom: 2.34vw;
 }
 
-.contact-inputs p {
+.contact-inputs label {
     text-transform: uppercase;
 
     font-weight: 500;
@@ -569,13 +567,13 @@ h2 {
     opacity: 0.9;
 }
 
-.contact-inputs input {
+.input-forms {
     background: #FFFFFF;
     box-shadow: 0px 4px 120px rgba(0, 0, 0, 0.03);
     border-radius: 5px;
 
     /* overflow:hidden; */
-    padding: 0.63vw;
+    padding: 0.63vw 0 0.63vw 0.63vw;
     margin-top: 0.63vw;
 
     font-weight: 400;
@@ -588,9 +586,10 @@ h2 {
     width: 14vw;
 }
 
-.contact-one-col input {
-    width: 31.5vw;
-    height: 7.81vw;
+.contact-one-col textarea {
+    width: 32vw;
+    height: 10vw;
+    border-width: 2px;
 }
 
 .input-forms:focus {
@@ -614,6 +613,10 @@ h2 {
 
 .contact-one-col, .contact-second-col {
     margin-top: 1.33vw;
+}
+
+.contact-item {
+    flex-direction: column;
 }
 
 .contact-inputs button {
@@ -645,7 +648,7 @@ h2 {
 .footer-info-item li {
     font-weight: 400;
     font-size: 0.875rem;
-    /* line-height: 14px; */
+    line-height: 14px;
     
     text-align: center;
 }
@@ -657,7 +660,7 @@ h2 {
 .footer-info-item p {
     font-weight: 700;
     font-size: 1rem;
-    /* line-height: 16px; */
+    line-height: 16px;
     color: #323232;
 
     margin-bottom: 1vw;
@@ -707,7 +710,7 @@ h2 {
 .footer-subscribe span, .footer-contact-span {
     font-weight: 400;
     font-size: 14px;
-    /* line-height: 180%; */
+    line-height: 180%;
     color: #646464;
 }
 
