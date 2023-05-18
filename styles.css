@@ -256,6 +256,8 @@ h2 {
 
 .offer-info-items {
     justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */ /* д/б фикс. ширина блоков */
 }
 
 .offer-item {
@@ -453,6 +455,7 @@ h2 {
 .team-items {
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .team-info h2 {
