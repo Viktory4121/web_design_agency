@@ -654,8 +654,8 @@ h2 {
 .feedback-info-item {
     position: absolute;
     z-index: 1;
-    /* opacity: 0; */
-    /* visibility: hidden; */
+    /* opacity: 0;
+    visibility: hidden; */
 
     background: #fff;
     /* width: 320px; */
@@ -715,14 +715,14 @@ h2 {
 }
 
 #fd-info3 {
-    top: 50%;
-    left: 17%;
+    top: 45%;
+    left: 65%;
 }
 
 #fd-img1:hover #fd-info1 {
     
     opacity: 1;
-    /* visibility: visible; */
+    visibility: visible;
     z-index: 2;
 }
 
