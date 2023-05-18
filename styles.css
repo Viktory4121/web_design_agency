@@ -800,7 +800,7 @@ h2 {
     background: #FFFFFF;
     box-shadow: 0px 4px 120px rgba(0, 0, 0, 0.03);
     border-radius: 5px;
-    /* border: none; */
+    border: none;
 
     padding: 0.63vw;
     margin-top: 0.63vw;
@@ -818,10 +818,6 @@ h2 {
 .contact-first-col, .contact-second-col {
     justify-content: space-between;
 }
-
-/* .contact-two-col input {
-    width: 100%;
-} */
 
 .contact-one-col textarea {
     height: 10vw;
@@ -843,9 +839,9 @@ h2 {
     opacity: 0.9;
 }
 
-/* .contact-fullname + .contact-email, .contact-deadline + .contact-budget {
+.contact-fullname + .contact-email, .contact-deadline + .contact-budget {
     margin-left: 2vw;
-} */
+}
 
 .contact-one-col, .contact-second-col {
     margin-top: 1.33vw;
