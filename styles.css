@@ -533,12 +533,65 @@ h2 {
 
 /* ---------------------------------------------------------------- */
 
+.feedback-info {
+    /* justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
 .feedback-info h2 {
     margin-top: 4.69vw;
     margin-bottom: 1.37vw;
 }
 
+.feedback-items {
+    position: relative;
+    height: 800px;
+    margin-top: 5vw;
+}
 
+.feedback-item {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#fd-img1 {
+    top: 0;
+    left: 45%;
+    background: url("pic/Ellipse 59.png") no-repeat center 30%;
+}
+
+#fd-img2 {
+    top: 20%;
+    left: 20%;
+    background: url("pic/Ellipse 60.png") no-repeat center 30%;
+}
+
+#fd-img3 {
+    top: 15%;
+    left: 70%;
+    background: url("pic/Ellipse 61.png") no-repeat center 30%;
+}
+
+#fd-img4 {
+    top: 45%;
+    left: 45%;
+    background: url("pic/Ellipse 62.png") no-repeat center 30%;
+}
+
+#fd-img5 {
+    top: 70%;
+    left: 20%;
+    background: url("pic/Ellipse 63.png") no-repeat center 30%;
+}
+
+#fd-img6 {
+    top: 65%;
+    left: 70%;
+    background: url("pic/Ellipse 64.png") no-repeat center 30%;
+}
 
 /* ---------------------------------------------------------------- */
 
