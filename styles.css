@@ -533,12 +533,6 @@ h2 {
 
 /* ---------------------------------------------------------------- */
 
-.feedback-info {
-    /* justify-content: center;
-    align-items: center;
-    flex-direction: column; */
-}
-
 .feedback-info h2 {
     margin-top: 4.69vw;
     margin-bottom: 1.37vw;
@@ -654,13 +648,11 @@ h2 {
 .feedback-info-item {
     position: absolute;
     z-index: 1;
-    /* opacity: 0;
-    visibility: hidden; */
+    opacity: 0;
+    visibility: hidden;
 
     background: #fff;
-    /* width: 320px; */
-    padding: 0.6vw;
-
+    padding: 0.7vw;
     border-radius: 20px;
 }
 
@@ -734,40 +726,39 @@ h2 {
     left: 65%;
 }
 
-#fd-img1:hover #fd-info1 {
-    
+#fd-img1:hover + #fd-info1 {
     opacity: 1;
     visibility: visible;
     z-index: 2;
 }
 
-#fd-img2:hover #fd-info2 {
+#fd-img2:hover + #fd-info2 {
     opacity: 1;
-    /* visibility: visible; */
+    visibility: visible;
     z-index: 2;
 }
 
-#fd-img3:hover #fd-info3 {
+#fd-img3:hover + #fd-info3 {
     opacity: 1;
-    /* visibility: visible; */
+    visibility: visible;
     z-index: 2;
 }
 
-#fd-img4:hover #fd-info4 {
+#fd-img4:hover + #fd-info4 {
     opacity: 1;
-    /* visibility: visible; */
+    visibility: visible;
     z-index: 2;
 }
 
-#fd-img5:hover #fd-info5 {
+#fd-img5:hover + #fd-info5 {
     opacity: 1;
-    /* visibility: visible; */
+    visibility: visible;
     z-index: 2;
 }
 
-#fd-img6:hover #fd-info6 {
+#fd-img6:hover + #fd-info6 {
     opacity: 1;
-    /* visibility: visible; */
+    visibility: visible;
     z-index: 2;
 }
 
