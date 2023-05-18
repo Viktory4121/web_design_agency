@@ -557,42 +557,94 @@ h2 {
     border-radius: 50%;
 }
 
+.feedback-item:hover {
+    transform: scale(1.1);
+    border-width: 2px;
+    border-style: solid;
+    border-color: #F35F2F;
+    box-shadow: 0px 4px 120px rgba(0, 0, 0, 0.05);
+
+    cursor: pointer;
+}
+
 #fd-img1 {
     top: 0;
     left: 45%;
     background: url("pic/Ellipse 59.png") no-repeat center 30%;
+    background-size: 100% auto;
 }
 
 #fd-img2 {
     top: 20%;
     left: 20%;
     background: url("pic/Ellipse 60.png") no-repeat center 30%;
+    background-size: 100% auto;
 }
 
 #fd-img3 {
     top: 15%;
     left: 70%;
     background: url("pic/Ellipse 61.png") no-repeat center 30%;
+    background-size: 100% auto;
 }
 
 #fd-img4 {
     top: 45%;
     left: 45%;
     background: url("pic/Ellipse 62.png") no-repeat center 30%;
+    background-size: 100% auto;
 }
 
 #fd-img5 {
     top: 70%;
     left: 20%;
     background: url("pic/Ellipse 63.png") no-repeat center 30%;
+    background-size: 100% auto;
 }
 
 #fd-img6 {
     top: 65%;
     left: 70%;
     background: url("pic/Ellipse 64.png") no-repeat center 30%;
+    background-size: 100% auto;
 }
 
+
+
+.feedback-ellipse {
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#fd-ellipse1 {
+    top: 60%;
+    left: 35%;
+    background: linear-gradient(88.3deg, #AA80FF -71.4%, rgba(160, 113, 255, 0.65) 151.53%);
+    opacity: 0.8;
+}
+
+#fd-ellipse2 {
+    top: 35%;
+    left: 40%;
+    background: linear-gradient(3.03deg, rgba(243, 47, 47, 0.9) -100.62%, rgba(243, 47, 47, 0.55) 120.92%);
+    opacity: 0.8;
+}
+
+#fd-ellipse3 {
+    top: 25%;
+    left: 60%;
+    background: linear-gradient(90.46deg, #47C2FF -141.71%, rgba(99, 203, 254, 0.65) 97.21%);
+    opacity: 0.8;
+}
+
+#fd-ellipse4 {
+    top: 80%;
+    left: 60%;
+    background: linear-gradient(88.3deg, #79E28A -274.73%, rgba(121, 226, 177, 0.65) 96.22%);
+    opacity: 0.8;
+}
 /* ---------------------------------------------------------------- */
 
 
@@ -624,6 +676,7 @@ h2 {
     background: #FFFFFF;
     box-shadow: 0px 4px 120px rgba(0, 0, 0, 0.03);
     border-radius: 5px;
+    border: none;
 
     /* overflow:hidden; */
     padding: 0.63vw 0 0.63vw 0.63vw;
