@@ -779,6 +779,10 @@ h2 {
     margin-left: 14.18vw;
 }
 
+.contact-inputs-block {
+    width: 40%;
+}
+
 .contact-info h2 {
     margin-top: 10.16vw;
     margin-bottom: 2.34vw;
@@ -786,7 +790,6 @@ h2 {
 
 .contact-inputs label {
     text-transform: uppercase;
-
     font-weight: 500;
     font-size: 1.125rem;
     color: #3D3D3F;
@@ -797,10 +800,9 @@ h2 {
     background: #FFFFFF;
     box-shadow: 0px 4px 120px rgba(0, 0, 0, 0.03);
     border-radius: 5px;
-    border: none;
+    /* border: none; */
 
-    /* overflow:hidden; */
-    padding: 0.63vw 0 0.63vw 0.63vw;
+    padding: 0.63vw;
     margin-top: 0.63vw;
 
     font-weight: 400;
@@ -809,12 +811,19 @@ h2 {
     opacity: 0.4;
 }
 
-.contact-two-col input {
-    width: 14vw;
+.contact-two-col {
+    flex-direction: column;
 }
 
+.contact-first-col, .contact-second-col {
+    justify-content: space-between;
+}
+
+/* .contact-two-col input {
+    width: 100%;
+} */
+
 .contact-one-col textarea {
-    width: 32vw;
     height: 10vw;
     border-width: 2px;
 }
@@ -834,9 +843,9 @@ h2 {
     opacity: 0.9;
 }
 
-.contact-fullname + .contact-email, .contact-deadline + .contact-budget {
+/* .contact-fullname + .contact-email, .contact-deadline + .contact-budget {
     margin-left: 2vw;
-}
+} */
 
 .contact-one-col, .contact-second-col {
     margin-top: 1.33vw;
@@ -854,6 +863,9 @@ h2 {
 .contact-button {
     margin-top: 2vw;
     margin-bottom: 3.71vw;
+
+    justify-content: center;
+    align-items: center;
 }
 
 
