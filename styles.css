@@ -213,7 +213,8 @@ h2 {
 }
 
 .provide-item {
-    width: 25%;
+    /* width: 20vw; */
+    width: 20%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -223,7 +224,7 @@ h2 {
 }
 
 .provide-item + .provide-item {
-    margin-left: 1.99vw;
+    margin-left: 2vw;
 }
 
 .provide-item p {
@@ -261,7 +262,8 @@ h2 {
 }
 
 .offer-item {
-    width: 25%;
+    /* width: 20vw; */
+    width: 20%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -271,12 +273,15 @@ h2 {
     border-radius: 0.90vw;
 }
 
+.offer-item + .offer-item {
+    margin-left: 2vw;
+}
+
 .offer-img-block {
     transform: translate(0, -50%);
-    /* width: 5.5vw; */
     width: 90px;
-    /* height: 5.5vw; */
     height: 90px;
+
     background: #fff;
     box-shadow: 0px 4px 22px rgba(95, 95, 95, 0.05);
     border-radius: 50%;
@@ -293,13 +298,8 @@ h2 {
     width: 55px;
 }
 
-.offer-item + .offer-item {
-    margin-left: 1.99vw;
-}
-
 .offer-info h2 {
     margin-top: 4.69vw;
-    /* margin-bottom: 1.76vw; */
     margin-bottom: 5.28vw;
 }
 
@@ -308,7 +308,6 @@ h2 {
     font-size: 1.5rem;
     color: #3D3D3F;
 
-    /* margin-top: 1.95vw; */
     text-align: center;
 }
 
@@ -325,15 +324,14 @@ h2 {
 
 .offer-circle-block {
     background: #F1F1F5;
-    /* width: 3vw; */
+
     width: 45px;
-    /* height: 3vw; */
     height: 45px;
     border-radius: 50%;
+    margin-bottom: 1.52vw;
 
     align-items: center;
     justify-content: center;
-    margin-bottom: 1.52vw;
 }
 
 .offer-circle-block:hover {
@@ -351,6 +349,8 @@ h2 {
 
 
 /*  ----------------------------------------------------------------*/
+
+
 
 .projects-info {
     justify-content: center;
@@ -673,7 +673,7 @@ h2 {
     visibility: hidden;
 
     background: #fff;
-    padding: 0.7vw;
+    padding: 1vw;
     margin-top: 1.5vw;
     border-radius: 20px;
 }
@@ -809,6 +809,7 @@ h2 {
 
 .contact-first-col, .contact-second-col {
     justify-content: space-between;
+    flex-direction: row;
 }
 
 .contact-one-col textarea {
