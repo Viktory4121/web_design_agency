@@ -64,19 +64,29 @@ header .logo {
 }
 
 .menu-item {
-    font-weight: 500;
-    font-size: 0.875rem;
-    /* line-height: 18px; */
-
     display: inline; /* размещение списка по-горизонтали */
 }
 
-.menu-item a {
+.menu-item button {
     color: #3D3D3F;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 18px;
+
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none; /* убирает подчёркивание у ссылок */
 }
 
 .menu-item + .menu-item {
     margin-left: 2.34vw;
+}
+
+.menu-item button:hover { /* реакция на наведение курсора */
+    background: linear-gradient(2.79deg, #F35F2F -13.68%, rgba(243, 95, 47, 0.75) 121.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .main-button {
@@ -86,13 +96,11 @@ header .logo {
     background: linear-gradient(2.79deg, #F35F2F -13.68%, rgba(243, 95, 47, 0.75) 121.16%);
     opacity: 0.85;
     border-radius: 0.20vw;
-    /* border: none; */
     border-width: thin;
     border-style: solid;
     border-color: #F35F2F;
 
     cursor: pointer;
-    /* box-sizing: border-box; */
 }
 
 .main-button:hover {
@@ -106,25 +114,11 @@ header .logo {
     border-width: thin;
     border-style: solid;
     border-color: #F35F2F;
-
-    /* box-sizing: border-box; */
 }
 
 .menu-button button {
-    /* padding: 12px 24px; */
     padding: 0.47vw 0.94vw;
     transform: translate(200%, 0);
-}
-
-
-.menu a {
-    text-decoration: none; /* убирает подчёркивание у ссылок */
-}
-
-.menu-item a:hover { /* реакция на наведение курсора */
-    background: linear-gradient(2.79deg, #F35F2F -13.68%, rgba(243, 95, 47, 0.75) 121.16%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 
@@ -898,12 +892,18 @@ h2 {
     text-align: center;
 }
 
-.footer-info-item a {
+.footer-back a, .foot-cat button {
     text-decoration: none; /* убирает подчёркивание у ссылок */
     color: #646464;
+
+    border: none;
+    background: none;
+    cursor: pointer;
 }
 
-.footer-info-item a:hover, .footer-back a:hover {
+
+.footer-back a:hover, .foot-cat button:hover,
+.footer-back button:hover {
     background: linear-gradient(2.79deg, #F35F2F -13.68%, rgba(243, 95, 47, 0.75) 121.16%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -982,7 +982,10 @@ h2 {
     margin-left: 2.15vw;
 }
 
-.footer-back a {
+.footer-back button {
     text-decoration: none;
     color: #646464;
+    background: none;
+    border: none;
+    cursor: pointer;
 }

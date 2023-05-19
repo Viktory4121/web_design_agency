@@ -15,7 +15,7 @@
 
 </head>
 <body>
-    <header class="header flex">
+    <header id="tab-home" class="header flex">
         <div class="logo flex header-blok">
             <img src="pic/Logo.svg" alt="">
             <span class="font-rubik">Designzcy</span>
@@ -24,35 +24,35 @@
         <nav class="menu flex font-dmsans header-blok" role="navigation">
             <ul>
                 <li class="menu-item">
-                    <a href="#">Home</a>
+                    <button id="tab-home-button">Home</button>
                 </li>
 
                 <li class="menu-item">
-                    <a href="#">Service</a>
+                    <button id="tab-service-button">Service</button>
                 </li>
 
                 <li class="menu-item">
-                    <a href="#">Portfolio</a>
+                    <button id="tab-portfolio-button">Portfolio</button>
                 </li>
 
                 <li class="menu-item">
-                    <a href="#">Blog</a>
+                    <button id="">Blog</button>
                 </li>
             </ul>
         </nav>
 
         <div class="menu-button font-dmsans header-blok">
-            <button class="main-button">Contact us</button>
+            <button id="tab-contact-button" class="main-button">Contact us</button>
         </div>
     </header>
 
     <main>
-        <section class="consult-info flex"> <!-- первый блок -->
+        <section id="tab-about" class="consult-info flex"> <!-- первый блок -->
             <div class="consult-text-info flex font-rubik consult-blok">
                 <h1>Smart Web Design Agency</h1>
                 <span>We will provide best web design and business devlopment service clients expectation and satisfaction guarantee.</span>
                 <div>
-                    <button class="main-button">Free consultation</button>
+                    <button id="tab-contact-button2" class="main-button">Free consultation</button>
                 </div>
             </div>
 
@@ -61,7 +61,7 @@
             </div>
         </section>
 
-        <section class="provide-info font-dmsans"> <!-- второй блок -->
+        <section id="tab-service" class="provide-info font-dmsans"> <!-- второй блок -->
             <h2>We Provide the Best Web services</h2>
 
             <div class="provide-num-info flex">
@@ -168,7 +168,7 @@
             </div>
         </section>
 
-        <section class="projects-info font-dmsans"> <!-- четвертый блок -->
+        <section id="tab-portfolio" class="projects-info font-dmsans"> <!-- четвертый блок -->
             <h2>Our Creative Latest Projects</h2>
 
             <div class="projects-block flex">
@@ -353,7 +353,7 @@
 
         </section>
 
-        <section class="contact-info font-dmsans"> <!-- седьмой блок -->
+        <section id="tab-contact" class="contact-info font-dmsans"> <!-- седьмой блок -->
             <h2>Contact Us</h2>
 
             <div class="contact-inputs flex">
@@ -418,22 +418,22 @@
             <div class="footer-category footer-info-item">
                 <p>Category</p>
                 <ul>
-                    <li class="foot-cat"><a href="#"> Home</a></li>
-                    <li class="foot-cat"><a href="#">About</a></li>
-                    <li class="foot-cat"><a href="#">Services</a></li>
-                    <li class="foot-cat"><a href="#">Reviews</a></li>
-                    <li class="foot-cat"><a href="#">Article</a></li>
+                    <li class="foot-cat"><button id="tab-home-button2">Home</button></li>
+                    <li class="foot-cat"><button id="tab-about-button">About</button></li>
+                    <li class="foot-cat"><button id="tab-service-button2">Services</button></li>
+                    <li class="foot-cat"><button>Reviews</button></li>
+                    <li class="foot-cat"><button>Article</button></li>
                 </ul>
             </div>
 
             <div class="footer-about footer-info-item">
                 <p>About</p>
                 <ul>
-                    <li class="foot-cat"><a href="#">Partners</a></li>
-                    <li class="foot-cat"><a href="#">Careers</a></li>
-                    <li class="foot-cat"><a href="#">Press</a></li>
-                    <li class="foot-cat"><a href="#">Community</a></li>
-                    <li class="foot-cat"><a href="#">Support</a></li>
+                    <li class="foot-cat"><button>Partners</button></li>
+                    <li class="foot-cat"><button>Careers</button></li>
+                    <li class="foot-cat"><button>Press</button></li>
+                    <li class="foot-cat"><button>Community</button></li>
+                    <li class="foot-cat"><button>Support</button></li>
                 </ul>
             </div>
 
@@ -449,12 +449,15 @@
             <p class="footer-back-block"><a href="https://www.figma.com/file/GLnE6lstO5iXXvCua2R0Jb/Web-design-Agency?type=design&node-id=2%3A16&t=uIIDnu87MVNMvyOS-1">© 2021 Designzcy - All rights reserved.</a></p>
             <nav class="footer-back-block">
                 <ul>
-                    <li class="footer-back-item"><a href="#">Privacy</a></li>
-                    <li class="footer-back-item"><a href="#">Security</a></li>
-                    <li class="footer-back-item"><a href="#">Terms</a></li>
+                    <li class="footer-back-item"><button>Privacy</button></li>
+                    <li class="footer-back-item"><button>Security</button></li>
+                    <li class="footer-back-item"><button>Terms</button></li>
                 </ul>
             </nav>
         </div>
     </footer>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
