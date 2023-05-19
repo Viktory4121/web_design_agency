@@ -548,7 +548,7 @@ h2 {
 }
 
 .feedback-item {
-    position: absolute;
+    /* position: absolute; */
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -568,45 +568,57 @@ h2 {
 }
 
 #fd-img1 {
-    top: 0;
-    left: 45%;
     background: url("pic/Ellipse 59.png") no-repeat center 30%;
     background-size: 100% auto;
 }
+#fd-block1{
+    top: 0;
+    left: 40%;
+}
 
 #fd-img2 {
-    top: 20%;
-    left: 20%;
     background: url("pic/Ellipse 60.png") no-repeat center 30%;
     background-size: 100% auto;
 }
+#fd-block2{
+    top: 20%;
+    left: 10%;
+}
 
 #fd-img3 {
-    top: 15%;
-    left: 70%;
     background: url("pic/Ellipse 61.png") no-repeat center 30%;
     background-size: 100% auto;
 }
+#fd-block3{
+    top: 15%;
+    left: 65%;
+}
 
 #fd-img4 {
-    top: 45%;
-    left: 45%;
     background: url("pic/Ellipse 62.png") no-repeat center 30%;
     background-size: 100% auto;
 }
+#fd-block4{
+    top: 45%;
+    left: 40%;
+}
 
 #fd-img5 {
-    top: 70%;
-    left: 20%;
     background: url("pic/Ellipse 63.png") no-repeat center 30%;
     background-size: 100% auto;
 }
+#fd-block5{
+    top: 70%;
+    left: 10%;
+}
 
 #fd-img6 {
-    top: 65%;
-    left: 70%;
     background: url("pic/Ellipse 64.png") no-repeat center 30%;
     background-size: 100% auto;
+}
+#fd-block6{
+    top: 65%;
+    left: 65%;
 }
 
 
@@ -647,15 +659,22 @@ h2 {
 }
 
 
+.feedback-block {
+    position: absolute;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 .feedback-info-item {
-    position: absolute;
     z-index: 1;
     opacity: 0;
     visibility: hidden;
 
     background: #fff;
     padding: 0.7vw;
+    margin-top: 1.5vw;
     border-radius: 20px;
 }
 
@@ -697,36 +716,6 @@ h2 {
 
     color: #515155;
     opacity: 0.7;
-}
-
-#fd-info1 {
-    top: 30%;
-    left: 40%;
-}
-
-#fd-info2 {
-    top: 50%;
-    left: 15%;
-}
-
-#fd-info3 {
-    top: 45%;
-    left: 65%;
-}
-
-#fd-info4 {
-    top: 75%;
-    left: 40%;
-}
-
-#fd-info5 {
-    top: 100%;
-    left: 15%;
-}
-
-#fd-info6 {
-    top: 95%;
-    left: 65%;
 }
 
 #fd-img1:hover + #fd-info1 {
