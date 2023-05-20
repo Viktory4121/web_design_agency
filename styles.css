@@ -351,27 +351,27 @@ h2 {
 
 .projects-block {
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap; /* для размещения большого количества блоков с информацией друг под другом */
 }
 
 .project-item {
+    /* width: auto; */
     flex-direction: column;
-    width: auto;
     align-items: center;
+    justify-content: space-evenly;
+    margin: 0.5vw;
 
     background: #FFFFFF;
     border-radius: 10px;
 }
 
-.project-item + .project-item {
+/* .project-item + .project-item {
     margin-left: 1vw;
     margin-top: 1vw;
-}
+} */
 
 .project-image {
-    /* width: 15.63vw;
-    height: 11.72vw; */
     width: 390px;
     height: 290px;
     margin: 0.6vw;
@@ -385,26 +385,32 @@ h2 {
 
 #project-1 {
     background: url('pic/site1.png') no-repeat 0% top;
+    background-size: 100% auto;
 }
 
 #project-2 {
     background: url('pic/site2.png') no-repeat 0% top;
+    background-size: 100% auto;
 }
 
 #project-3 {
     background: url('pic/site3.png') no-repeat 0% top;
+    background-size: 100% auto;
 }
 
 #project-4 {
     background: url('pic/site4.png') no-repeat 0% top;
+    background-size: 100% auto;
 }
 
 #project-5 {
     background: url('pic/site5.png') no-repeat 0% top;
+    background-size: 100% auto;
 }
 
 #project-6 {
     background: url('pic/site6.png') no-repeat 0% top;
+    background-size: 100% auto;
 }
 
 .project-item p {
@@ -741,19 +747,22 @@ h2 {
 
 /* ---------------------------------------------------------------- */
 
-
-
 .contact-inputs {
+    width: 100%;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 
-    margin-right: 14.18vw;
-    margin-left: 14.18vw;
+    /* margin-right: 14.18vw;
+    margin-left: 14.18vw; */
 }
 
-.contact-inputs-block {
+.contact-two-cols {
     width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .contact-info h2 {
@@ -784,13 +793,8 @@ h2 {
     opacity: 0.4;
 }
 
-.contact-two-col {
-    flex-direction: column;
-}
-
-.contact-first-col, .contact-second-col {
-    justify-content: space-between;
-    flex-direction: row;
+.contact-one-col {
+    width: 40%;
 }
 
 .contact-one-col textarea {
@@ -817,8 +821,12 @@ h2 {
     margin-left: 2vw;
 }
 
-.contact-one-col, .contact-second-col {
-    margin-top: 1.33vw;
+.contact-fullname, .contact-email, .contact-deadline, .contact-budget {
+    width: 45%;
+}
+
+.contact-deadline, .contact-budget, .contact-one-col {
+    margin-top: 2vw;
 }
 
 .contact-item {
