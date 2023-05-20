@@ -41,16 +41,14 @@ header .logo {
 }
 
 .logo img {
-    /* height: 1.80vw; */
     height: 46px;
-
     margin-right: 0.39vw;
 }
 
 .logo span {
     font-weight: 500;
     font-size: 1.625rem;
-    /* line-height: 31px; */
+    line-height: 31px;
     text-transform: uppercase;
     color: #3D3D3F;
 }
@@ -149,7 +147,7 @@ header .logo {
 
     font-weight: 500;
     font-size: 4.5rem;
-    /* line-height: 85px; */
+    line-height: 85px;
     color: #3D3D3F;
 }
 
@@ -159,12 +157,11 @@ header .logo {
 
     font-weight: 400;
     font-size: 1.25rem;
-    /* line-height: 24px; */
+    line-height: 24px;
     color: #3D3D3F;
 }
 
 .consult-text-info button {
-    /* padding: 12px 28px; */
     padding: 0.47vw 1.09vw;
     font-weight: 400;
     font-size: 1.25rem;
@@ -175,8 +172,6 @@ header .logo {
 }
 
 .consult-image img {
-    /* max-width: 56.48vw; */
-    /* max-width: 626px; */
     width: 100%;
 }
 
@@ -204,10 +199,10 @@ h2 {
 
 .provide-num-info {
     justify-content: center;
+    align-items: stretch;
 }
 
 .provide-item {
-    /* width: 20vw; */
     width: 20%;
     align-items: center;
     justify-content: center;
@@ -240,7 +235,6 @@ h2 {
 
 .provide-item img {
     width: 99px;
-    /* width: 3.87vw; */
     margin-bottom: 0.90vw;
     margin-top: 2.11vw;
 }
@@ -251,12 +245,11 @@ h2 {
 
 .offer-info-items {
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     /* flex-wrap: wrap; */ /* д/б фикс. ширина блоков */
 }
 
 .offer-item {
-    /* width: 20vw; */
     width: 20%;
     align-items: center;
     justify-content: center;
@@ -357,11 +350,9 @@ h2 {
 }
 
 .projects-block {
-    /* max-width: 80vw; */
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; /* для размещения большого количества блоков с информацией друг под другом */
-
 }
 
 .project-item {
@@ -377,10 +368,6 @@ h2 {
     margin-left: 1vw;
     margin-top: 1vw;
 }
-
-/* .project-item img {
-    max-width: 299px;
-} */
 
 .project-image {
     /* width: 15.63vw;
@@ -448,7 +435,7 @@ h2 {
 
 .team-items {
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
 }
 
