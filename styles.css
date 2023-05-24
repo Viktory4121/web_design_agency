@@ -20,6 +20,12 @@ body {
     background: #F9FAFF;
 }
 
+/* header {
+    position: fixed;
+    width: 100%;
+    background-color: #F9FAFF;
+} */
+
 .header{
     height: 7.81vw;
     width: 100%;
@@ -31,9 +37,8 @@ body {
     width: 33%;
 }
 
-header .logo {
+.header .logo {
     padding-left: 8.98vw;
-    
 }
 
 .logo {
@@ -855,7 +860,8 @@ h2 {
 }
 
 .footer-info-item {
-    width: 23%;
+    /* width: 23%; */
+    width: 22vw;
 }
 
 .footer-info-item ul {
